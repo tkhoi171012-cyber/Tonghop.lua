@@ -8,7 +8,7 @@ local Window = MakeWindow({
         Key = {
         KeySystem = true,
         Title = "Key System",
-        Description = "",
+        Description = "key",
         KeyLink = "1",
         Keys = {"1"},
         Notifi = {
@@ -99,7 +99,7 @@ AddButton(Tab3o, {
 })
 local Tab4o = MakeTab({Name = "fix lag"})
 AddButton(Tab4o, {
-    Name = "fixlag 1(không hoạt động",
+    Name = "fixlag 1(không hoạt động)",
     Callback = function()
        loadstring(game:HttpGet("https://pastebin.com/raw/BCHimnfM"))()
     end
