@@ -108,5 +108,9 @@ AddButton(Tab4o, {
        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
     end
 })
-
+AddButton(Tab4o, {
+    Name = "game song thần",
+    Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()  
+    end
+})
 
