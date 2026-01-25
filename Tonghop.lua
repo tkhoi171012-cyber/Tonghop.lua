@@ -94,13 +94,8 @@ AddButton(Tab2o, {
     end
 })
 
-local Tab3o = MakeTab({Name = "kaitun"})
-AddButton(Tab3o, {
-    Name = "chx có",
-    Callback = function()
-       
-    end
-})
+local Tab3o = MakeTab({Name = "hop sv"})
+
 local Tab4o = MakeTab({Name = "linh tinh"})
 AddButton(Tab4o, {
     Name = "fly",
@@ -113,4 +108,14 @@ AddButton(Tab4o, {
     Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()  
     end
 })
+AddButton(Tab1o, {
+    Name = "rezd (kh bt ngonnkh)",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+    end
+})
 
+AddButton(Tab3o, {
+    Name = "visionx[kh nt ngon kh]",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs/heads/main/Server_Finder.lua"))()
+    end
+})
