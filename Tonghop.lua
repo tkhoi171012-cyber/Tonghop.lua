@@ -97,10 +97,12 @@ AddButton(Tab3o, {
        
     end
 })
-local Tab4o = MakeTab({Name = "fix lag"})
+local Tab4o = MakeTab({Name = "linh tinh"})
 AddButton(Tab4o, {
-    Name = "fixlag 1(không hoạt động)",
+    Name = "fly",
     Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/BCHimnfM"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
     end
 })
+
+
