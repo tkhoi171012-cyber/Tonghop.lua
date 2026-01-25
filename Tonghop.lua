@@ -8,7 +8,7 @@ local Window = MakeWindow({
         Key = {
         KeySystem = true,
         Title = "Key System",
-        Description = "key",
+        Description = "10k",
         KeyLink = "1",
         Keys = {"1"},
         Notifi = {
@@ -58,7 +58,11 @@ AddButton(Tab1o, {
         ))()
     end
 })
-
+AddButton(Tab1o, {
+    Name = "thịnh",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thinh12344/Thinh_ne/refs/heads/main/thinhfree.txt"))()  
+    end
+})
 -- TAB 2
 local Tab2o = MakeTab({Name = "Script tiếng Việt"})
 
