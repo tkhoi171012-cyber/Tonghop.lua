@@ -2,7 +2,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2
 
 local Window = MakeWindow({
          Hub = {
-         Title = "script tổng hợp 10k",
+         Title = "script tổng hợp BloxFruit",
          Animation = "10k"
          },
         Key = {
@@ -39,9 +39,13 @@ AddButton(Tab1o, {
         ))()
     end
 })
-
 AddButton(Tab1o, {
-    Name = "Quantum Onyx",
+    Name = "rezd (kh bt ngonnkh)",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+    end
+})
+AddButton(Tab1o, {
+    Name = "Quantum Onyx(đang lỗi đánh)",
     Callback = function()
         loadstring(game:HttpGet(
             "https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"
@@ -63,10 +67,16 @@ AddButton(Tab1o, {
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thinh12344/Thinh_ne/refs/heads/main/thinhfree.txt"))()  
     end
 })
+AddButton(Tab1o, {
+    Name = "script tiếngViệt👇👇",
+    Callback = function()
+       
+    end
+})
 -- TAB 2
 local Tab2o = MakeTab({Name = "Script tiếng Việt"})
 
-AddButton(Tab2o, {
+AddButton(Tab1o, {
     Name = "min",
     Callback = function()
         getgenv().Team = "Marines"
@@ -76,7 +86,7 @@ AddButton(Tab2o, {
     end
 })
 
-AddButton(Tab2o, {
+AddButton(Tab1o, {
     Name = "trau",
     Callback = function()
         loadstring(game:HttpGet(
@@ -85,7 +95,7 @@ AddButton(Tab2o, {
     end
 })
 
-AddButton(Tab2o, {
+AddButton(Tab3o, {
     Name = "script hop sv (chờ lâu lắm)",
     Callback = function()
         loadstring(game:HttpGet(
@@ -108,12 +118,6 @@ AddButton(Tab4o, {
     Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()  
     end
 })
-AddButton(Tab1o, {
-    Name = "rezd (kh bt ngonnkh)",
-    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
-    end
-})
-
 AddButton(Tab3o, {
     Name = "visionx[kh nt ngon kh]",
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs/heads/main/Server_Finder.lua"))()
