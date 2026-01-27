@@ -3,12 +3,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2
 local Window = MakeWindow({
          Hub = {
          Title = "script tổng hợp BloxFruit",
-         Animation = "10k"
+         Animation = "free lỏ"
          },
         Key = {
         KeySystem = true,
         Title = "Key System",
-        Description = "10k",
+        Description = "lỏ",
         KeyLink = "1",
         Keys = {"1"},
         Notifi = {
@@ -62,20 +62,18 @@ AddButton(Tab1o, {
         ))()
     end
 })
-AddButton(Tab1o, {
-    Name = "thịnh",
-    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thinh12344/Thinh_ne/refs/heads/main/thinhfree.txt"))()  
-    end
-})
+
 AddButton(Tab1o, {
     Name = "script tiếngViệt👇👇",
     Callback = function()
        
     end
 })
--- TAB 2
-local Tab2o = MakeTab({Name = "Script tiếng Việt"})
-
+AddButton(Tab1o, {
+    Name = "thịnh",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thinh12344/Thinh_ne/refs/heads/main/thinhfree.txt"))()  
+    end
+})
 AddButton(Tab1o, {
     Name = "min",
     Callback = function()
@@ -94,7 +92,7 @@ AddButton(Tab1o, {
         ))()
     end
 })
-
+local Tab2o = MakeTab({Name = "Script hop sv"})
 AddButton(Tab3o, {
     Name = "script hop sv (chờ lâu lắm)",
     Callback = function()
@@ -103,23 +101,21 @@ AddButton(Tab3o, {
         ))()
     end
 })
-
-local Tab3o = MakeTab({Name = "hop sv"})
-
-local Tab4o = MakeTab({Name = "linh tinh"})
-AddButton(Tab4o, {
+AddButton(Tab2o, {
+    Name = "visionx[kh nt ngon kh]",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs/heads/main/Server_Finder.lua"))()
+    end
+})
+local Tab3o = MakeTab({Name = "linh tinh"})
+AddButton(Tab3o, {
     Name = "fly",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
     end
 })
-AddButton(Tab4o, {
+AddButton(Tab3o, {
     Name = "game song thần",
     Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()  
     end
 })
-AddButton(Tab3o, {
-    Name = "visionx[kh nt ngon kh]",
-    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs/heads/main/Server_Finder.lua"))()
-    end
-})
+
