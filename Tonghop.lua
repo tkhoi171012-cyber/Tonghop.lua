@@ -93,7 +93,7 @@ AddButton(Tab1o, {
     end
 })
 local Tab2o = MakeTab({Name = "Script hop sv"})
-AddButton(Tab3o, {
+AddButton(Tab2o, {
     Name = "script hop sv (chờ lâu lắm)",
     Callback = function()
         loadstring(game:HttpGet(
@@ -106,16 +106,22 @@ AddButton(Tab2o, {
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs/heads/main/Server_Finder.lua"))()
     end
 })
-local Tab3o = MakeTab({Name = "linh tinh"})
-AddButton(Tab3o, {
+local Tab4o = MakeTab({Name = "linh tinh"})
+AddButton(Tab4o, {
     Name = "fly",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
     end
 })
-AddButton(Tab3o, {
+AddButton(Tab4o, {
     Name = "game song thần",
     Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()  
     end
 })
-
+local Tab3o = MakeTab({Name = "fix lag"})
+AddButton(Tab3o, {
+    Name = "fig lag turbo ",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))() 
+    end
+})
