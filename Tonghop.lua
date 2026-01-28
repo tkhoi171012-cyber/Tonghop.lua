@@ -70,7 +70,7 @@ AddButton(Tab1o, {
     end
 })
 AddButton(Tab1o, {
-    Name = "thịnh",
+    Name = "thịnh(máy yếu là lổđó lag vaiz)",
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thinh12344/Thinh_ne/refs/heads/main/thinhfree.txt"))()  
     end
 })
