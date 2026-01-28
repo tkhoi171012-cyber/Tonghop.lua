@@ -9,8 +9,8 @@ local Window = MakeWindow({
         KeySystem = true,
         Title = "Key System",
         Description = "lỏ",
-        KeyLink = "1",
-        Keys = {"1"},
+        KeyLink = "2",
+        Keys = {"2"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
@@ -40,12 +40,12 @@ AddButton(Tab1o, {
     end
 })
 AddButton(Tab1o, {
-    Name = "rezd (kh bt ngonnkh)",
+    Name = "rezd (kh bt ngon kh)",
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
     end
 })
 AddButton(Tab1o, {
-    Name = "Quantum Onyx(đang lỗi đánh)",
+    Name = "Quantum Onyx",
     Callback = function()
         loadstring(game:HttpGet(
             "https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"
@@ -102,7 +102,7 @@ AddButton(Tab3o, {
     end
 })
 AddButton(Tab2o, {
-    Name = "visionx[kh nt ngon kh]",
+    Name = "visionx[như cứt]",
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/VisionX/refs/heads/main/Server_Finder.lua"))()
     end
 })
