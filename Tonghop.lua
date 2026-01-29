@@ -29,7 +29,7 @@ MinimizeButton({
 })
 
 -- TAB 1
-local Tab1o = MakeTab({Name = "Script English"})
+local Tab1o = MakeTab({Name = "Script"})
 
 AddButton(Tab1o, {
     Name = "Gravity Hub (Blox Fruits)",
@@ -62,7 +62,11 @@ AddButton(Tab1o, {
         ))()
     end
 })
-
+AddButton(Tab1o, {
+    Name = "bluex (cần key)",
+    Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+    end
+})
 AddButton(Tab1o, {
     Name = "script tiếngViệt👇👇",
     Callback = function()
@@ -118,10 +122,14 @@ AddButton(Tab4o, {
     Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()  
     end
 })
+AddButton(Tab1o, {
+    Name = "anti afk",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))();  
+    end
+})
 local Tab3o = MakeTab({Name = "fix lag"})
 AddButton(Tab3o, {
     Name = "fig lag turbo ",
-    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))() 
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))() 
     end
 })
