@@ -122,7 +122,7 @@ AddButton(Tab4o, {
     Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/EscapeTsunamiForBrainrots"))()  
     end
 })
-AddButton(Tab1o, {
+AddButton(Tab4o, {
     Name = "anti afk",
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))();  
     end
