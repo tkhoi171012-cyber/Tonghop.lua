@@ -126,6 +126,10 @@ AddButton(Tab4o, {
     Name = "anti afk",
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))();  
     end
+})AddButton(Tab4o, {
+    Name = "aim",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/DanielHubll/DanielHubll/refs/heads/main/Aimbot%20Mobile"))()
+    end
 })
 local Tab3o = MakeTab({Name = "fix lag"})
 AddButton(Tab3o, {
